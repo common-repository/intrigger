@@ -1,0 +1,333 @@
+
+div.clearfix {
+    float: none;
+    clear: both;
+}
+
+div.inside {
+    padding: 0px !important;
+}
+
+div.scenario_ele {
+    width: 32%;
+    min-width: 300px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #b0b0b0;
+    height: 230px;
+    margin-left: 1%;
+    margin-top: 10px;
+    background-color: #ffffff;
+    margin-left: 1%;
+    cursor: pointer;
+}
+div.scenario_ele.selected {
+    background-color: #177092;
+    color: #fff;
+}
+div.scenario_ele_name {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+div.scenario_ele_preview img{
+    max-width: 250px;
+    max-height: 120px;
+}
+
+div.scenario_ele.selected div.scenario_ele_preview {
+    /*opacity: 0.8;
+    -moz-opacity: 0.8;*/
+}
+div.scenario_ele_desc {
+    padding: 14px;
+    font-size: 15px;
+}
+
+div.scenario_title_area {
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 10px;
+}
+div.scenario_title_area_custom{
+    display: inline-block;
+    width : 19px;
+    box-sizing : border-box;
+    float:left;
+    margin-top:10px;
+}
+div.scenario_field_area {
+    display: inline-block;
+    width: 80%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+div.scenario_field_area input[type="number"] {
+    width: 80px;
+}
+
+div.scenario_field_area .fullwidth {
+    width: 100%;
+}
+
+div.scenario_field_area input.specific_url {
+    width: 80%;
+}
+div.scenario_field_area a {
+    text-decoration: none;
+}
+
+div.scenario_field_area a:hover {
+    text-decoration: underline;
+}
+
+div.scenario_field_area span.remove_specfic_url_btn {
+    cursor: pointer;
+}
+
+div.scenario_field_area textarea {
+    height: 300px;
+    resize: vertical;
+}
+
+div.scenario_form_section {
+    padding: 20px;
+}
+
+div.scenario_form_section.even {
+    background-color: #f7f7f7;
+}
+
+div.scenario_categories, div.scenario_terms {
+
+}
+div.scenario_subs {
+    margin-top: 8px;
+    margin-left: 12px;
+}
+div.scenario_sub {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+/**/
+div#continue_reading_img{
+    height: 120px;
+    background: url('../img/scenario-type-continue_reading-normal.png') no-repeat center;
+}
+div#continue_reading_img.selected{
+    height: 120px;
+    background: url('../img/scenario-type-continue_reading-hover.png') no-repeat center;
+}
+div#inline_img{
+    height: 120px;
+    background: url('../img/scenario-type-inline-normal.png') no-repeat center;
+}
+div#inline_img.selected{
+    height: 120px;
+    background: url('../img/scenario-type-inline-hover.png') no-repeat center;
+}
+div#float_bar_img{
+    height: 120px;
+    background: url('../img/scenario-type-float_bar-normal.png') no-repeat center;
+}
+div#float_bar_img.selected{
+    height: 120px;
+    background: url('../img/scenario-type-float_bar-hover.png') no-repeat center;
+}
+.ui-sortable-handle{
+    background-color: #1F4D5F;
+    color:#ffffff;
+    font-size: 16px !important;
+}
+.itrr_button {
+    background: #177092;
+    padding: 6px 22px;
+    cursor: pointer;
+    border-width: 0px;
+    color: #fff;
+}
+.itrr_button:hover {
+    background: #1885a8;
+}
+#itrr_tabs{
+    display: inline-block;
+    width: 70%;
+}
+ul.itrrScenarioTabView {
+    list-style: none;
+    padding-left: 20px;
+    display: inline-block;
+    border-bottom: 1px solid ;
+    border-color: #c3c2c2;
+    width: 100%;
+
+}
+li.itrrScenariolist {
+    float: left;
+    border: 1px solid #c3c2c2;
+    border-bottom-width: 0;
+    margin: 3px 3px 0px 3px;
+    padding: 10px 10px;
+    background-color: #EEE;
+    color: #888;
+    cursor: pointer;
+    border-radius: 3px 3px 0px 0px;
+
+}
+.itrrScenarioTabMainView {
+    clear: both;
+    padding: 0 1em;
+    width: 100%;
+}
+li.itrrScenariolist.active {
+    background-color: #FFF;
+    color: #23282d;
+    font-weight: bold;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    margin-bottom: -2px;
+}
+#itrr_search_posts_key
+{
+    width: 60%;
+}
+#wp-link-wrap.has-text-field .wp-link-text-field
+{
+    display: none;
+}
+#wp-link .link-target
+{
+    display: none;
+}
+#wp-link .item-title
+{
+    width: 38%;
+}
+#wp-link .item-url
+{
+    display: inline-block;
+}
+#itrr_search_posts
+{
+    cursor: pointer;
+    border-radius: 4px;
+}
+.itrr_result_lists
+{
+    margin-left: 10px;
+}
+#itrr_search_result_table
+{
+    width: 100%;
+    margin-top: 0px;
+    border-style: solid;
+    border-color: #cacaca;
+    border-spacing: 0px;
+    border-width: 1px;
+    border-radius: 2px;
+}
+#itrr_search_result_table .itrr_search_result_table_head
+{
+    height: 30px;
+    background-color: #1F4D5F;
+    color: #ffffff;
+}
+
+#itrr_search_result_table tr
+{
+    height: 30px;
+    display: table;
+    width: 100%;
+}
+#itrr_search_result_table thead , #itrr_search_result_table tbody
+{
+    float: left;
+    width: 100%;
+}
+#itrr_search_result_table tbody
+{
+    overflow: auto;
+    height: 150px;
+}
+
+#itrr_search_result_table .odd
+{
+    background-color: rgba(211, 211, 211, 0.28);
+}
+#itrr_search_result_table .even
+{
+    background-color: #ffffff;
+}
+.itrr_srt_first
+{
+    width: 10%;
+    text-align: left;
+    padding-left: 5px;
+}
+.itrr_srt_second
+{
+    text-align: left;
+}
+.itrr_srt_third
+{
+    text-align: left;
+    width: 20%;
+}
+#itrr_search_confirm_area
+{
+    margin-top: 20px;
+}
+#itrr_search_cancel_button
+{
+    margin-left: 25px;
+    display: inline-block;
+    margin-top: 5px;
+}
+#itrr_search_posts_results_message
+{
+    border-radius: 7px;
+    border-style: solid;
+    background-color: rgba(120, 202, 120, 0.45);
+    border-color: #5F945F;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    border-width: 2px;
+}
+#itrr_search_posts_results_message p{
+    margin: 0px;
+}
+.scenario_field_description
+{
+    margin: 0px;
+    display: inline-block;
+}
+.senario_priority_comment_area.show_comment
+{
+    width: 200px;
+    font-size: 12px;
+    position: absolute;
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    margin-top: -90px;
+    margin-left: -4px;
+    background-color: #BDBBBB;
+    border-color: #D6CFCF;
+    color: black;
+    padding: 11px;
+}
+.senario_priority_comment_area
+{
+    display: none;
+}
+.specific_url_area
+{
+    padding: 0 1em;
+}

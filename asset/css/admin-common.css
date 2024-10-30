@@ -1,0 +1,221 @@
+.itrr_home_table{
+    margin-left: 4px;
+    margin-top: 24px;
+    padding-right: 24px;
+}
+
+.itrr_stats{
+    padding: 12px;
+    /*margin: 0 15px;*/
+    min-width: 280px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.itrr_stats_detail{
+    background-color:#fff;
+    padding: 42px 0;
+    cursor: default !important;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: gray;
+}
+.itrr_impression{
+    background-color: #085394;
+}
+.itrr_conversion{
+    background-color: #38761d;
+}
+.itrr_conversation_rate{
+    background-color: #ff9900;
+}
+
+.itrr_stats_table{
+    width: 100%;
+    border-spacing: 0px;
+}
+.itrr_stats_table td.itrr_stats_td{
+    /*padding-right: 48px;*/
+    padding: 0px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.itrr_active_scenario_table{
+    /*padding-right: 48px;*/
+    width: 100%;
+    border-spacing: 0px;
+    /*border: 1px solid #bbb !important;*/
+}
+.itrr_active_scenario_table thead{
+    background-color: #cccccc;
+
+}
+.itrr_active_scenario_table th{
+    height: 42px;
+    text-align: left;
+    padding-left: 24px;
+    color:#666;
+    font-size: 16px !important;
+}
+.itrr_active_scenario_table tbody tr td{
+    height: 48px;
+    text-align: left;
+    padding-left: 24px;
+    font-size: 14px;
+    color:#444;
+    background-color: #fff;
+    border-bottom: 3px solid #cccccc;
+}
+.itrr_active_scenario_table tbody tr td:first-child{
+    border-left: 2px solid #cccccc;
+}
+.itrr_active_scenario_table tbody tr td:last-child{
+    border-right: 2px solid #cccccc;
+}
+td.email,td.itrr_scenario_name{
+    color: -webkit-link;
+    /*text-decoration: underline;*/
+    font-size: 14px!important;
+    font-weight: 600;
+    color: #0073aa;
+}
+.itrr_button {
+    text-decoration: initial;
+    background: #177092;
+    padding: 6px 22px;
+    cursor: pointer;
+    border-width: 0px;
+    color: #fff;
+}
+.itrr_button:hover {
+    background: #1885a8;
+    color: #fff;
+}
+.itrr_scenario_continue_reading{
+    padding: 5px 12px;
+    background-color: #38761d;
+    color:#fff;
+    font-weight: bold;
+}
+.itrr_scenario_inline{
+    padding: 5px 12px;
+    background-color: #9500ff;
+    color:#fff;
+    font-weight: bold;
+}
+.itrr_scenario_float_bar{
+    padding: 5px 12px;
+    background-color: #ff9900;
+    color:#fff;
+    font-weight: bold;
+}
+.column-trigger_type span {
+    position: relative;
+    top: 11px;
+}
+.itrr_home_col_6{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 10px 48px 10px 10px;
+}
+.itrr_home_intro{
+    /*width: 100%;*/
+    height: 320px;
+}
+.itrr_home_col_6 h4{
+    margin-top: 0px;
+    font-size: 16px;
+}
+.itrr_home_row{
+    /*border-top: 2px solid #474747;*/
+    padding-top: 18px;
+    padding-bottom: 36px;
+    margin: 0 10px;
+}
+.itrr_home_create{
+    border-top: 2px solid #474747;
+    padding-top: 18px;
+    padding-bottom: 36px;
+    margin: 0 10px;
+}
+.itrr_home_row h3{
+    font-size: 18px;
+    margin-left: 8px;
+    margin-top: 0px;
+}
+
+.itrr_home_col_4{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 33%;
+}
+.itrr_home_create .scenario_ele {
+    width: 29%;
+    min-width: 300px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #dadada;
+    height: 230px;
+    margin-left: 2%;
+    margin-top: 10px;
+    background-color: #ffffff;
+    margin-right: 2%;
+    cursor: pointer;
+}
+#itrr_home_continue_btn {
+    text-decoration: none;
+    background: #3eb20a;
+    line-height: 70px;
+    border-radius: 4px;
+    color: #fff !important;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 10px 36px;
+}
+.itrr_home .itrr_home_title{
+    display: inline-block;
+}
+.itrr_home .itrr_date_picker{
+    /*display: inline-block;*/
+    vertical-align: bottom;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    margin-top: 20px;
+}
+.itrr_home h3{
+    font-size: 21px;
+    font-weight: 600;
+    color: #1F4D5F;
+}
+.itrr_home h1{
+    font-weight: 600;
+    color: #1F4D5F;
+}
+#drp_autogen0
+{
+    background: white;
+}
+h2.itrr_home_tag{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    margin-bottom: 32px;
+}
+.itrr_home_tag span{
+    padding: 6px 10px;
+    font-weight: 700;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #f1f1f1;
+}

@@ -1,0 +1,269 @@
+td.email{
+    color: -webkit-link;
+    text-decoration: underline;
+}
+#the-list td,#the-list th{
+    height: 30px;
+    vertical-align: inherit;
+}
+.contact_link{
+    float: right;
+    margin: 10px;
+    font-size: 16px;
+}
+
+/*Support page*/
+
+.itrr_support_table {
+    /*margin-top: 24px;*/
+    padding-right: 24px;
+}
+.itrr_support_table td{
+    padding-right: 24px;
+    padding-left: 0px;
+    vertical-align: top;
+}
+.widefat {
+    /*min-height: 180px;*/
+    /*border: 1px solid #bbb !important;*/
+}
+.widefat thead{
+    background-color: #1F4D5F;
+    font-size: 16px;
+}
+
+.widefat th{
+    font-size: 16px;
+    font-weight: bold;
+    color:#ffffff !important;
+}
+td.itrr_contact_content,#itrr_faqs{
+    padding: 24px;
+}
+td.itrr_setting_content {
+    padding: 36px 24px;
+}
+#itrr_faqs p{
+    font-weight: initial;
+    padding: 4px 12px;
+}
+.itrr_setting_content{
+    font-weight: initial;
+}
+.itrr_setting_content .itrr_setting_title{
+    font-weight: bold;
+    font-size: 14px;
+	padding-top: 3px;
+}
+.itrr_contact_msg {
+    font-weight: initial;
+    min-height: 180px;
+    width: 100%;
+}
+.itrr_setting_field span{
+    font-weight: initial;
+}
+li.itrr_answer {
+    list-style-type:none;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor:help;
+}
+.itrr_contact_success {
+    background-color: #dff0d8;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+.itrr_contact_fail {
+    background-color: #f2dede;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+textarea.error,input.error{
+    border-color: #f00;
+}
+.itrr_input {
+    min-width: 320px;
+}
+.itrr_setting_title {
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+    float: left;
+    /*margin-top: 10px;*/
+}
+.itrr_setting_field {
+    display: inline-block;
+    width: 80%;
+    box-sizing: border-box;
+    /*margin-top: 10px;*/
+}
+.itrr_setting_left,.itrr_setting_right{
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 14px;
+}
+.itrr_setting_text{
+    /*margin-left: 14px;*/
+}
+.itrr_setting_left h3{
+    color: #0073aa;
+    /*margin-left: 8px;*/
+}
+#itrr_signup_button{
+    background: #3eb20a;
+    line-height: 70px;
+    border-radius: 4px;
+    color: #fff !important;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+#itrr_sib_login_button, #itrr_mcp_login_button, #itrr_mcp_confirm_button, #itrr_sib_confirm_button{
+    margin-left: 12px;
+    border-radius: 4px;
+    color: #fff !important;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+.itrr_arrow{
+    border: 6px solid transparent;
+    float: left;
+    font-size: 0px;
+}
+.itrr_arrow.open{
+    margin-top: 8px;
+    margin-right: 4px;
+    border-top-color: #000;
+}
+.itrr_arrow.close{
+    margin-top: 4px;
+    border-left-color: #000;
+}
+.dashicons {
+    font-size: 18px;
+    margin-left: -5px;
+}
+#itrr_contact_list{
+    min-width: 200px;
+}
+.itrr_button {
+    background: #177092;
+    padding: 6px 22px;
+    cursor: pointer;
+    border-width: 0px;
+    color: #fff;
+}
+.itrr_button:hover {
+    background: #1885a8;
+    color: #eee;
+}
+.itrr_button:focus{
+    background: #1885a8;
+    color: #eee;
+}
+.itrr_green_button{
+    background: #3eb20a;
+    padding: 6px 22px;
+    cursor: pointer;
+    border-width: 0px;
+    color: #fff;
+    vertical-align: middle;
+}
+.itrr_setting_integration h2 {
+    font-size: 23px;
+    font-weight: 400;
+    padding: 9px 0px 0px 0px;
+    width: inherit;
+    cursor: pointer;
+}
+.itrr_support_table .itrr_settings_label{
+  padding: 9px 0px 20px 0px !important;
+}
+#itrr_setting_bot_allow
+{
+    margin-top:30px;
+}
+#itrr_setting_clear
+{
+    margin-top: 30px;
+}
+#itrr_setting_branding
+{
+    margin-top: 30px;
+}
+#itrr_clear_setting_panel
+{
+    width: 50%;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border-radius: 7px;
+    border-color: darkgray;
+}
+.itrr_setting_confirm_title
+{
+    background-color: #177092;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 23px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.itrr_setting_confirm_title p
+{
+    color: white;
+    font-size: 15px;
+}
+.itrr_setting_confirm_message
+{
+    height: 50px;
+    padding: 20px;
+}
+.itrr_setting_confirm_buttons
+{
+    padding: 10px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: cadetblue;
+}
+#itrr_setting_confirm_yes
+{
+    margin-left: 20px;
+    border-radius: 4px;
+}
+#itrr_setting_confirm_cancel
+{
+    margin-left: 30px;
+    border-radius: 4px;
+}
+#itrr_setting_clear_success_message
+{
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+#itrr_setting_clear_fail_message
+{
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+#itrr_clear_setting
+{
+    border-radius: 4px;
+}
